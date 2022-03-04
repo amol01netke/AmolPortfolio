@@ -1,0 +1,204 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    transition: 0.3s ease-in;
+    background-color: black;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    color: white;
+    list-style-type: none;
+    padding:30px 0px;
+    font-size: 25px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:white;
+}
+
+.main{
+   background-color: white;
+}
+
+.info-container{
+    background-color:aquamarine;
+    height: 75vh;
+    margin: 75px;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 5px 5px 10px 5px black;
+}
+
+.dev-pic img{
+  height: 75vh;
+  border-radius: 20px;
+}
+
+.dev-info{
+    margin-top:150px;    
+}   
+
+.hello{
+    font-size:30px;
+}
+
+.name{    
+    font-size: 70px;
+}
+
+.about{
+    font-weight: bold;
+    font-size:30px ;
+}
+
+.more-about{
+    margin-top: 20px;
+    font-size:17px ;
+    font-weight: bold;
+}
+
+.downloads{
+    margin-top: 50px;
+    justify-content: left;
+}
+
+#btn-resume{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+#btn-resume:hover{
+    background-color: white;
+    color: black;
+}
+
+.contact{
+    margin: 10px;
+    width: 50vw;
+    padding: 20px;
+}
+
+.contact h2{
+    margin: 20px;
+}
+
+.contact label{
+    font-weight: bold;
+    margin: 20px;
+}
+
+.contact input{
+    margin: 20px;
+    width:20vw;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.contact textarea{
+    border-radius: 10px;
+    margin: 20px;
+    width:20vw;
+    height: 10vh;
+}
+
+#btn-submit{
+    margin:20px;
+    padding:10px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+#btn-submit:hover{
+    background-color: white;
+    color: black;
+}
+
+.contact-buttons button{
+    width: 16vw;
+    margin: 20px;
+    padding:10px 20px;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    font-size: medium;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.project-container{
+    background-color:aquamarine;
+    height: 75vh;
+    margin: 75px;
+    border-radius: 20px;
+    display:flex;
+    box-shadow: 5px 5px 10px 5px black;
+}
+
+.project-pic img{
+    height: 70vh;
+    margin: 20px;
+}
+
+.project-info{
+    margin-top:20px;   
+}   
+
+.project-title{
+    font-size: 40px;
+    margin: 20px;
+}
+
+.project-desc{
+    margin: 20px;
+}
+
+#btn-github{
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+#btn-github:hover{
+    background-color: white;
+    color: black;
+}
+
+.sidebar-go{
+    transform: translate(-220px,0px);
+    position:absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-left: 10px;
+    display: inline;
+}
